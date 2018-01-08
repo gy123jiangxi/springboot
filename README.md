@@ -80,7 +80,12 @@
  协议用途：获取学员任务列表
  协议号：363
  协议参数：待定
- 返回参数:List<View> View:baseInfor,List<ids> changeNum,mastertaskId,isSave,
+ 返回参数:   Map<Short, String> dayTaskMap;//日常奖励
+ short weekTakNum;//周次数
+ Short weekTaskId;//周奖励id
+ String weekTaskProgress;//周奖励类型
+ Short twiceNum;//固定奖励次数
+ List<Short> twiceIdList;//固定奖励类型
   --------------------------------------------
 
  
