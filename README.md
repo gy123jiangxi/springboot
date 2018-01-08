@@ -51,7 +51,6 @@
  协议号：357
  协议参数： int chengeNum（改变次数）long uid(学员uid) byte PlatfromType(学员平台值)
  返回参数:  int taskNum（任务数量） List<Short> taskList（任务id集合）short masterTaskId (师傅奖励id)  int chengeNum变更次数
-
 -------------------------------------------------
 协议用途：任务列表
 协议号：358
