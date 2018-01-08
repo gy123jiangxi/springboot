@@ -47,16 +47,16 @@
 协议参数：int 操作类型（枚举） long message（消息id) long muid(目标用户uid) byte mplatfromType（目标用户平台值）
 返回参数:待定
 -------------------------------------------------
-协议用途：任务变更 进入的时候回给定默认值，
-协议号：357
-协议参数： int chengeNum（改变次数）long uid(学员uid) byte PlatfromType(学员平台值)
-返回参数:  int taskNum（任务数量） List<Short> taskList（任务id集合）short masterTaskId (师傅奖励id)  int chengeNum变更次数
+ 协议用途：任务变更 进入的时候回给定默认值,
+ 协议号：357
+ 协议参数： int chengeNum（改变次数）long uid(学员uid) byte PlatfromType(学员平台值)
+ 返回参数:  int taskNum（任务数量） List<Short> taskList（任务id集合）short masterTaskId (师傅奖励id)  int chengeNum变更次数
 
 -------------------------------------------------
 协议用途：任务列表
 协议号：358
 协议参数：无
-返回参数:List<View> View:baseInfor,List<ids> isSave,
+返回参数:List<View> View:baseInfor,List<ids> changeNum,mastertaskId,isSave,
 -------------------------------------------------
 协议用途：学员列表
 协议号：359
