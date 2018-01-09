@@ -50,7 +50,7 @@
  协议用途：任务变更 进入的时候回给定默认值,
  协议号：357
  协议参数： int chengeNum（改变次数）long uid(学员uid) byte PlatfromType(学员平台值)
- 返回参数:  int taskNum（任务数量） List<Short> taskList（任务id集合）short masterTaskId (师傅奖励id)  int chengeNum变更次数
+ 返回参数:  int taskNum（任务数量） List<Short> taskList（任务id集合）short masterTaskId (师傅奖励id)  int chengeNum变更次数 
 -------------------------------------------------
 协议用途：任务列表
 协议号：358
@@ -75,12 +75,12 @@
  协议用途：教官保存任务
  协议号：362
  协议参数： long auid;PlatformType aplatformType;
- 返回参数: int taskNum;List<Short> taskList;short masterTaskId;int chengeNum;
+ 返回参数: 无
  --------------------------------------------
  协议用途：获取学员任务列表
  协议号：363
- 协议参数：待定
- 返回参数:   Map<Short, String> dayTaskMap;//日常奖励
+ 协议参数：无
+ 返回参数:   Map<Short, String> dayTaskMap;//日常奖励
  short weekTakNum;//周次数
  Short weekTaskId;//周奖励id
  String weekTaskProgress;//周奖励类型
