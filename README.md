@@ -74,8 +74,8 @@
  -------------------------------------------------
  协议用途：教官保存任务
  协议号：362
- 协议参数：待定
- 返回参数:待定
+ 协议参数： long auid;PlatformType aplatformType;
+ 返回参数: int taskNum;List<Short> taskList;short masterTaskId;int chengeNum;
  --------------------------------------------
  协议用途：获取学员任务列表
  协议号：363
