@@ -87,6 +87,6 @@ Map<Short, String> weekTaskMap;
 Short twiceNum;//固定奖励次数
 List<Short> twiceIdList;//固定奖励类型
      
-  --------------------------------------------
+--------------------------------------------
 
  
